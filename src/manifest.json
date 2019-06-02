@@ -1,0 +1,37 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "期間自動計算プラグイン",
+        "en": "Period calculation",
+        "zh": "Period calculation"
+    },
+    "description": {
+        "ja": "期間を自動で計算します。",
+        "en": "----",
+        "zh": "----"
+    },
+    "icon": "image/calender.png",
+    "homepage_url": {},
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "https://js.cybozu.com/momentjs/2.24.0/moment.min.js",
+            "js/index.js"
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "js/kintone-config-helper.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/config.css",
+            "css/51-modern-default.css"
+        ],
+        "required_params": []
+    }
+}

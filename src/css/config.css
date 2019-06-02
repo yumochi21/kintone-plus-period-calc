@@ -1,0 +1,93 @@
+.body-top {
+  background-image: none !important;
+  background-color: #ffffff;
+}
+
+.container-gaia,
+.onecolumn-gaia,
+.contents-gaia,
+.main-gaia,
+.gaia-admin-app-plugin-config,
+.gaia-admin-app-plugin-config-description {
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.gaia-admin-app-plugin-config-info {
+  display: none;
+}
+.gaia-admin-app-plugin-config-table {
+  width: 100%;
+}
+
+/* プラグイン設定画面のスタイルはここから */
+
+.kintone-plus-config {
+  background-color: #ffffff;
+}
+.kintone-plus-config * {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #333333;
+}
+
+.kintone-plus-config-header {
+  padding: 20px 20px 0px 20px;
+}
+.kintone-plus-config-header .title {
+  font-size: 18px;
+}
+.kintone-plus-config-header .plugin-name {
+  font-size: 12px;
+}
+
+.kintone-plus-config-form {
+  padding: 10px 20px;
+}
+.kintone-plus-config-form .separater {
+  margin: 20px 0px;
+  border-bottom: 1px solid #333333;
+}
+.kintone-plus-config-form .title {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.kintone-plus-config-form table th,
+.kintone-plus-config-form table td {
+  padding: 8px 12px;
+}
+.kintone-plus-config-form table * {
+  font-size: 12px; 
+}
+.kintone-plus-config-form .label {
+  color: #333333;
+}
+
+
+.kintone-plus-config-button-box {
+  padding: 0px 20px 10px 20px;
+}
+.kintone-plus-config-button-box .submit-button {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 12px;
+  min-width: 120px;
+  border: 1px solid #888888;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.kintone-plus-config-button-box .save {
+  background-color: #CAE9FF;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #E7F8FC), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #E7F8FC),color-stop(.75, #E7F8FC), color-stop(.75, transparent),to(transparent));
+  -webkit-background-size: 21px 21px;
+}
+.kintone-plus-config-button-box .cancel {
+  background-color: #ECECEC;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
+  -webkit-background-size: 21px 21px;
+}
